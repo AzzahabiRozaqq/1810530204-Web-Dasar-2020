@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+</head>
+<body>
+	<div class="container">
+	<h2 class="alert alert-primary">Form Biodata</h2>
+	<hr>
+
+	<form method="post" action="#">
+
+		<div class="form-group">
+
+		<label>Nim : </label>
+		<input class="form-control" type="text" name="txtnim" size="50%"
+		maxlength="20" placeholder="Masukkan Nim Anda">
+
+		</div>
+		
+		<br>
+		<label>Nama : </label>
+		<input type="text" name="txtnama">
+		<label for="">Jurusan</label>
+		<select name="optjurusan" id="">
+			<option value="s1ilkom">S1 ILKOM</option>
+			<option value="s1ilkom">S1 ILKOM</option>
+		</select>
+
+		<br>
+		<label for="">Jenis Kelamin</label>
+		<input type="radio" value="L" name="rbjk">
+		Laki-Laki
+		<input type="radio" value="P" name="rbjk">
+		Perempuan
+		
+		<br>
+		<input class="btn btn-primary" type="reset" value="Simpan">
+		<input class ="btn btn-primary"type="reset" value="Batal">
+
+	</form>
+</div>
+</body>
+</html>
